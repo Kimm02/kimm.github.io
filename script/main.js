@@ -65,8 +65,8 @@ document.getElementById('verification').addEventListener('submit', function(e) {
 
     // Jika valid, tampilkan SweetAlert sukses dan jalankan animasi
     Swal.fire({
-        title: 'Verifikasi berhasil!',
-        text: 'Selamat menikmati!',
+        title: 'Verifikasi berhasil sayangg!',
+        text: 'Selamat menikmati surprise aku kali ini sayangg!',
         icon: 'success',
     }).then(() => {
         // Sembunyikan form verifikasi setelah sukses
