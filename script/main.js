@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Parah gak pernah deket sama Gamma!',
+            title: 'Parah gak pernah sama Gamma!',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
