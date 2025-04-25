@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['icha', 'Icha', 'NUR AISYAH FITRIYANI'];
+    const validNames = ['Adel', 'Delle', 'Rizkia Adelina'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Bukan pacar Gamma!',
+            title: 'Parah gak pernah deket sama Gamma!',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
@@ -65,8 +65,8 @@ document.getElementById('verification').addEventListener('submit', function(e) {
 
     // Jika valid, tampilkan SweetAlert sukses dan jalankan animasi
     Swal.fire({
-        title: 'Verifikasi berhasil sayangg!',
-        text: 'Selamat menikmati surprise aku kali ini sayangg!',
+        title: 'Verifikasi berhasil Dellee!',
+        text: 'Selamat menikmati surprise aku kali ini Dellee!',
         icon: 'success',
     }).then(() => {
         // Sembunyikan form verifikasi setelah sukses
